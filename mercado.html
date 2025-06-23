@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercadinho</title>
+    <link rel="stylesheet" href="css/mercado.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Bem-vindo, <span id="usuario"></span>!</h2>
+        <a href="carrinho.html" id="btnCarrinho">🛒 Ver Carrinho (<span id="qtdCarrinho">0</span>)</a>
+        <div id="produtos" class="grid"></div>
+    </div>
+
+    <!-- Janela Flutuante -->
+    <div id="popup" class="popup">
+        <p>Olá <span id="nomePopup"></span>, boas compras! 🛒</p>
+        <button id="fecharPopup">Fechar</button>
+    </div>
+    
+    <div id="mensagemFlutuante">Produto adicionado ao carrinho 🛒</div>
+
+    <script src="js/mercado.js"></script>
+</body>
+
+</html>
